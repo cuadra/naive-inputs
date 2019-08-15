@@ -1,0 +1,16 @@
+{
+  "name": "naive-inputs",
+  "version": "1.0.0",
+  "description": "A JS class which allows the user to navigate from view to view. Useful for Surveys or Quizzes and Tests. No processing or validation of results.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.22.9"
+  }
+}
