@@ -4,7 +4,8 @@
   "description": "A JS class which allows the user to navigate from view to view. Useful for Surveys or Quizzes and Tests. No processing or validation of results.",
   "main": "index.js",
   "scripts": {
-    "start": "npx parcel index.html"
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html"
   },
   "keywords": [],
   "author": "",
