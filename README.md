@@ -60,9 +60,9 @@ npm start
 			<p>Duis blandit ante mi, vel sollicitudin massa hendrerit vitae. (Not required to proceed.)</p>
 		</div>
 		<div class="answers">
-			<button type="button" class="answer" value=""></button>
-			<button type="button" class="answer" value=""></button>
-			<button type="button" class="answer" value=""></button>
+			<button type="button" class="answer"></button>
+			<button type="button" class="answer"></button>
+			<button type="button" class="answer"></button>
 		</div>
 		<div class="controls">
 			<button type="button" class="previous">Previous</button>
@@ -75,9 +75,9 @@ npm start
 			<p>Quisque ut sem ac metus rhoncus porttitor. (Required to proceed.)</p>
 		</div>
 		<div class="answers">
-			<button type="button" class="answer" value=""></button>
-			<button type="button" class="answer" value=""></button>
-			<button type="button" class="answer" value=""></button>
+			<button type="button" class="answer"></button>
+			<button type="button" class="answer"></button>
+			<button type="button" class="answer"></button>
 		</div>
 		<div class="controls">
 			<button type="button" class="previous">Previous</button>
@@ -163,6 +163,46 @@ npm start
 </div>
 ```
 
+### Example 4: Inline Form with no controls.
+
+```html
+	<form class="quiz styled inline">
+		<fieldset class="question multiple">
+			<div class="text">
+				<p>Curabitur eleifend a elit nec semper. Select all that apply.</p>
+			</div>
+			<div class="answers">
+				<button type="button" class="answer"></button>
+				<button type="button" class="answer"></button>
+				<button type="button" class="answer"></button>
+			</div>
+		</fieldset>
+		<fieldset class="question">
+			<div class="text">
+				<p>Duis blandit ante mi, vel sollicitudin massa hendrerit vitae.</p>
+			</div>
+			<div class="answers">
+				<button type="button" class="answer"></button>
+				<button type="button" class="answer"></button>
+				<button type="button" class="answer"></button>
+			</div>
+		</fieldset>
+		<fieldset class="question">
+			<div class="text">
+				<p>Quisque ut sem ac metus rhoncus porttitor.</p>
+			</div>
+			<div class="answers">
+				<button type="button" class="answer"></button>
+				<button type="button" class="answer"></button>
+				<button type="button" class="answer"></button>
+			</div>
+			<div class="controls">
+				<button type="submit" class="submit">Submit</button>
+				<button type="button" class="restart">Restart</button>
+			</div>
+		</fieldset>
+	</form>
+```
 
 ## Built With
 

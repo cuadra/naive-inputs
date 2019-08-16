@@ -26,14 +26,14 @@
 	}
 }
 
-
-.question.selected{
-	border:1px solid #CCC;
+.quiz:not(.inline){
+	.question.selected{
+		border:1px solid #CCC;
+	}
+	.question:not(.selected){
+		display:none;
+	}
 }
-.question:not(.selected){
-	display:none;
-}
-
 
 .disabled{
 	opacity:.5;
@@ -76,4 +76,7 @@ code{
 	background-color:#EFEFEF;
 	border:1px solid #CCC;
 	border-radius:5px;
+}
+.quiz.inline fieldset{
+	border:none;
 }
